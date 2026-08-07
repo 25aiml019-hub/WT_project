@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .dark {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* .faq {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+        } */
+
+        /* .question {
+            font-weight: bold;
+        } */
+
+        .ans {
+            display: none;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+    </style>
+    <script>
+            function theme() {
+                document.body.classList.toggle("dark");
+            }
+            function faq1() {
+                var a = document.getElementById("ans1")
+                if (a.style.display == "block") 
+                    a.style.display = "none"
+                 else {
+                    a.style.display = "block"
+                }
+            }
+              function faq2() {
+                var a = document.getElementById("ans2")
+                if (a.style.display == "block") 
+                    a.style.display = "none"
+                 else {
+                    a.style.display = "block"
+                }
+            }
+              function faq3() {
+
+              var a = document.getElementById("ans3")
+                if (a.style.display == "block") 
+                    a.style.display = "none"
+                 else {
+                    a.style.display = "block"
+                }
+             
+            }
+</script>
+
+</head>
+
+<body>
+    <nav>
+        <button onclick="theme()" >theme</button><br>
+
+        <button onclick = "faq1()">1. What is Student Hub?</button><br><br>
+
+         <div class="ans" id = "ans1"> <br><br>
+            <p>Student Hub is an online platform designed to help students with their academic activities.</p>
+        </div>
+
+        <button onclick="faq2()" >2. How do I log in?</button><br>
+
+        <div class="ans" id="ans2" > <br><br>
+            <p>Student Hub is an online platform designed to help students with their academic activities.</p>
+         </div>
+
+        <button onclick="faq3()" >3. Can I download study materials?</button><br>
+
+            <div class="ans" id="ans3" > <br><br> 
+            <p>Student Hub is an online platform designed to help students with their academic activities.</p>
+         </div>
+        </nav>
+</body>
+</html>

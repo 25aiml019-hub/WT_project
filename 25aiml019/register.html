@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Student Registration form</title>
+        <link rel="stylesheet" href="register.css">
+
+        <script>
+            function f() {
+                alert("fill the form and click register button");
+
+                
+            }
+
+        </script>
+        
+    </head>
+    <body>
+        <form action=""> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=0000000, initial-scale=1.0">
+
+                <label>full name </label>
+                <input type="text" placeholder="Enter your name"><br><br>
+                
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email"><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter your password"><br><br>
+                
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" placeholder="Confirm your password"><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" name="gender" >Male
+               
+                <input type="radio"  name="gender">Female
+                <br><br>
+
+                   <label>Department:</label><br>
+                   <select>
+                    <option >CSE</option>
+                    <option >ECE</option>
+                    <option >EEE</option>
+                    <option>CIVIL</option>
+                    <option>MECH</option>
+
+                     </select><br><br>
+               
+                     <label>Hobbies</label><br>
+                     <input type="checkbox" >Reading
+                     <input type="checkbox" >Sports
+                     <input type="checkbox" >Music
+                     <br><br>
+
+                     <label>Address</label><br>
+                     <textarea rows="4" cols="50"></textarea>
+                     <br><br>
+
+                   <input type="submit" name="submit" value="Register" onclick="f()">
+                   <input type="reset" value="Reset">
+
+           
+            </form>
+        </div>
+
+</html>
