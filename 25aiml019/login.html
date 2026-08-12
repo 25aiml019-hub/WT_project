@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <style>
+        
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -41,16 +42,18 @@
         }
     </style>
     <script>
-        function f() {
-            var a = document.forms["myform"];
-            var u= a.email.value;
-            var p= a.password.value;
-            if (u == "admin@example.com" && p == "admin123") {
-                alert("Login successful!");
-            } else {
-                alert("Invalid email or password.");
+
+        function validateform() {
+  
+                var password = document.getElementById("password").value;
+
+                let passwordpattern = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{6,}$/;
+                if (!passwordpattern.test(password)) {
+                    alert("Please enter a valid password (password must have 6 characters with uppercase, lowercase, and number).");
+                    return false;
+                }
+
             }
-        }
     </script>
 
 </head>
@@ -60,10 +63,10 @@
     <h2>Login</h2>
 
 
-    <form action="register.html" method="get" name="myform">
+    <form action="register.html" method="get" name="myform" onsubmit="return validateform()" >
 
-        <input type="email" name="email" placeholder="Enter your email" required><br>
-        <input type="password" name="password"   placeholder="Enter your password" required><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+        <input type="password" id="password" name="password"   placeholder="Enter your password" required><br>
         <input type="submit" id="btn" onclick="f()" value="Login">
 
 

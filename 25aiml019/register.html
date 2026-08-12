@@ -14,34 +14,114 @@
                 
             }
 
+            function validateform() {
+
+           
+
+                var name = document.getElementById("fullname").value;
+                var email = document.getElementById("email").value;
+                var enrolment = document.getElementById("enrolment").value; 
+                var password = document.getElementById("password").value;
+                var confirm_password = document.getElementById("confirm_password").value;
+                let department = document.getElementById("department").value;
+                let address = document.getElementById("address").value;
+            
+                let gender = document.querySelector(
+
+                    'input[name="gender"]:checked'
+                );
+                if(!gender) {
+                    alert("Please select a gender.");}
+
+                if(!department) {
+                    alert("Please select a department.");
+                }
+                if(!address) {
+                    alert("Please enter an address.");
+                }
+
+
+
+                let Hobbies = document.querySelectorAll(
+                    'input[type="checkbox"]:checked'
+                );
+
+
+
+                if (name == "") {
+                    alert("Please fill in all fields.");
+                    return false;
+                }
+
+                if (email == "") {
+                    alert("Please fill in all fields.");
+                    return false;
+                }
+                
+
+                 let enrolmentpattern = /^[0-9]{2}aiml[0-9]{3}$/;
+
+                if (!enrolmentpattern.test(enrolment)) {
+                    alert("Please enter a valid enrollment number in the format: 22aiml001");
+                    return false;
+                }
+
+                if (password == "") {
+                    alert("Please fill in all fields.");
+                    return false;
+                }
+                if (confirm_password == "") {
+                    alert("Please fill in all fields.");
+                    return false;
+                }
+
+                let passwordpattern = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{6,}$/;
+
+                if (!passwordpattern.test(password)) {
+                    alert("Please enter a valid password (password must have 6 characters with uppercase, lowercase, and number).");
+                    return false;
+                }
+
+                alert("Form submitted successfully!");
+                return true;
+
+            }
+
+            
+
         </script>
         
     </head>
     <body>
-        <form action=""> 
+        <form action="" onsubmit="return validateform()">
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=0000000, initial-scale=1.0">
 
-                <label>full name </label>
-                <input type="text" placeholder="Enter your name"><br><br>
+                <label>Full Name </label>
+                <input type="text" id="fullname" placeholder="Enter your name" required><br><br>
                 
                 <label>Email</label>
-                <input type="email" placeholder="Enter your email"><br><br>
+                <input type="email" id="email" placeholder="Enter your email" required><br><br>
+                
+                <label enrolment number>Enrollment Number</label>
+                <input type="text" id="enrolment" placeholder="Enter your enrollment number" required><br><br>
                 
                 <label for="password">Password:</label>
-                <input type="password" placeholder="Enter your password"><br><br>
+                <input type="password" id="password" placeholder="Enter your password" required><br><br>
                 
                 <label for="confirm_password">Confirm Password:</label>
-                <input type="password" placeholder="Confirm your password"><br><br>
+                <input type="password" id="confirm_password" placeholder="Confirm your password" required><br><br>
 
                 <label>Gender:</label><br>
-                <input type="radio" name="gender" >Male
-               
-                <input type="radio"  name="gender">Female
+                <input type="radio" name="gender" id="male" required>
+                <label for="male">Male</label>
+                <input type="radio"  name="gender" id="female" required>
+                <label for="female">Female</label>
                 <br><br>
 
                    <label>Department:</label><br>
-                   <select>
+                   <select required id="department">
                     <option >CSE</option>
                     <option >ECE</option>
                     <option >EEE</option>
@@ -51,13 +131,16 @@
                      </select><br><br>
                
                      <label>Hobbies</label><br>
-                     <input type="checkbox" >Reading
-                     <input type="checkbox" >Sports
-                     <input type="checkbox" >Music
+                     <input type="checkbox" id="reading" >
+                     <label for="reading">Reading</label>
+                     <input type="checkbox" id="sports" >
+                     <label for="sports">Sports</label>
+                     <input type="checkbox" id="music" >
+                     <label for="music">Music</label>
                      <br><br>
 
                      <label>Address</label><br>
-                     <textarea rows="4" cols="50"></textarea>
+                     <textarea rows="4" cols="50" ></textarea>
                      <br><br>
 
                    <input type="submit" name="submit" value="Register" onclick="f()">
