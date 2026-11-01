@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events - StudentHub</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/events.css">
+    <link rel="stylesheet" href="../assets/css/dynamic-data.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Upcoming Events</h1>
+    </header>
+
+    <hr class="header-divider">
+
+    <nav class="main-nav" aria-label="Main Navigation">
+        <a href="../index.html">Home</a>
+        <a href="administrative.html">Administrative</a>
+        <a href="campuslife.html">Campus Life</a>
+        <a href="course-enrollment.html">Course Enrollment</a>
+        <a href="events.html" class="active">Events</a>
+        <a href="registration.html">Student Registration</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <main class="events-container content-card">
+        <h2>Campus Events Schedule</h2>
+
+        <!-- Dynamic Mount Target for Practical 6 Fetch API -->
+        <div id="events-app">
+            <!-- Non-JS Fallback preserving Practical 2 semantic structure -->
+            <noscript>
+                <table class="data-table events-table" aria-label="Campus Events Schedule">
+                    <thead>
+                        <tr>
+                            <th>Event</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hackathon</td>
+                            <td>15 August</td>
+                        </tr>
+                        <tr>
+                            <td>Sports Day</td>
+                            <td>22 August</td>
+                        </tr>
+                        <tr>
+                            <td>Tech Fest</td>
+                            <td>10 September</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </noscript>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 StudentHub | Designed &amp; Developed by 
+            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+        </p>
+    </footer>
+
+    <!-- Modular Fetch API Scripts -->
+    <script src="../assets/js/data-loader.js"></script>
+    <script src="../assets/js/pagination.js"></script>
+    <script src="../assets/js/events-renderer.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

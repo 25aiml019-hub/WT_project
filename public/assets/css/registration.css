@@ -1,0 +1,58 @@
+/* =======================================================
+   StudentHub - Student Registration Styles
+   ======================================================= */
+
+.registration-form {
+    width: 100%;
+    max-width: 720px;
+    margin: 25px auto 40px;
+    background-color: #FFFFFF;
+    padding: 35px 40px;
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-radius: var(--radius-lg, 12px);
+    box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.08));
+    box-sizing: border-box;
+}
+
+.registration-form label {
+    display: block;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 14px;
+}
+
+.options-group {
+    margin: 8px 0 16px;
+    line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.options-group label {
+    display: inline-flex;
+    align-items: center;
+    font-weight: normal;
+    color: var(--text-color);
+    margin: 0;
+    cursor: pointer;
+}
+
+.options-group input[type="radio"],
+.options-group input[type="checkbox"] {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.registration-form textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+@media (max-width: 768px) {
+    .registration-form {
+        width: 100%;
+        padding: 20px 15px;
+    }
+}

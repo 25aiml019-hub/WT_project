@@ -1,0 +1,119 @@
+/* =======================================================
+   StudentHub - FAQ Page Styles & Theme Switcher
+   ======================================================= */
+
+.faq-nav {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.faq-container {
+    width: calc(100% - (2 * var(--container-padding, 24px)));
+    max-width: var(--container-max-width, 1240px);
+    margin: 15px auto;
+    background-color: #FFFFFF;
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: background-color 0.3s, border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.faq-question-btn {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: var(--primary-color);
+    border: none;
+    padding: 16px 22px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 0;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.faq-question-btn:hover {
+    background-color: var(--hover-bg);
+    color: var(--accent-color);
+}
+
+.faq-answer {
+    display: none;
+    padding: 16px 22px;
+    background-color: var(--hover-bg);
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-color);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* =======================================================
+   Dark Theme (Practical 4 Theme Switcher)
+   ======================================================= */
+
+body.dark-theme {
+    background-color: #111827;
+    color: #F9FAFB;
+}
+
+body.dark-theme h1 {
+    color: #93C5FD;
+}
+
+body.dark-theme h2 {
+    color: #60A5FA;
+}
+
+body.dark-theme .faq-container {
+    background-color: #1F2937;
+    border-color: #374151;
+}
+
+body.dark-theme .faq-question-btn {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+body.dark-theme .faq-question-btn:hover {
+    background-color: #374151;
+    color: #93C5FD;
+}
+
+body.dark-theme .faq-answer {
+    background-color: #374151;
+    color: #E5E7EB;
+    border-color: #4B5563;
+}
+
+body.dark-theme hr {
+    border-color: #60A5FA;
+}
+
+body.dark-theme .site-footer {
+    background-color: #1F2937;
+    color: #9CA3AF;
+    border-color: #374151;
+}
+
+body.dark-theme .site-footer strong {
+    color: #93C5FD;
+}
+
+@media (max-width: 768px) {
+    .faq-container {
+        width: 100%;
+    }
+
+    .faq-question-btn {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+        padding: 14px 16px;
+    }
+}

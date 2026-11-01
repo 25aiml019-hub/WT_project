@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="150" height="150">
+  <defs>
+    <linearGradient id="hubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#hubGrad)" />
+  <!-- Graduation Cap Icon -->
+  <polygon points="100,50 160,80 100,110 40,80" fill="#FFFFFF" />
+  <polygon points="65,95 65,130 100,145 135,130 135,95 100,112" fill="#E0E7FF" />
+  <circle cx="160" cy="80" r="4" fill="#FBBF24" />
+  <path d="M 160 84 Q 165 105 160 125" stroke="#FBBF24" stroke-width="3" fill="none" />
+  <rect x="156" y="125" width="8" height="12" fill="#FBBF24" rx="2" />
+  <!-- Text Label -->
+  <text x="100" y="172" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">STUDENT HUB</text>
+</svg>

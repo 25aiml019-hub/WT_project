@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Directory - StudentHub</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" href="../assets/css/dynamic-data.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Student Directory</h1>
+    </header>
+
+    <hr class="header-divider">
+
+    <nav class="main-nav" aria-label="Main Navigation">
+        <a href="../index.html">Home</a>
+        <a href="administrative.html">Administrative</a>
+        <a href="campuslife.html">Campus Life</a>
+        <a href="course-enrollment.html">Course Enrollment</a>
+        <a href="events.html">Events</a>
+        <a href="registration.html">Student Registration</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <main class="content-card page-container">
+        <h2>Enrolled Student Directory</h2>
+        <p style="text-align: center; color: var(--text-muted); margin-bottom: 25px;">
+            Search and filter student profiles loaded dynamically from external JSON via Fetch API.
+        </p>
+
+        <!-- Dynamic Mount Target -->
+        <div id="students-app"></div>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 StudentHub | Designed &amp; Developed by 
+            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+        </p>
+    </footer>
+
+    <!-- Modular Fetch API Scripts -->
+    <script src="../assets/js/data-loader.js"></script>
+    <script src="../assets/js/pagination.js"></script>
+    <script src="../assets/js/students-renderer.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

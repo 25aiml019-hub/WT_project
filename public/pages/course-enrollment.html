@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment - StudentHub</title>
+    <link rel="icon" type="image/png" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/course-enrollment.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-header-inner">
+            <div class="brand-section">
+                <a href="../index.html" class="brand-link">
+                    <img src="../assets/images/logo.png"
+                         alt="Student Hub Logo"
+                         class="site-logo"
+                         data-fallback="studenthub_co_logo"
+                         width="48"
+                         height="48"
+                         onerror="this.onerror=null; this.src='../assets/images/studenthub_logo.jpg';">
+                    <div class="brand-text">
+                        <span class="brand-title">StudentHub</span>
+                        <span class="brand-subtitle">CSPIT, CHARUSAT Campus</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="user-header-status" id="user-header-status">
+                <a href="login.html" class="btn-header-action btn-header-login">Sign In</a>
+                <a href="registration.html" class="btn-header-action btn-header-register">Register</a>
+            </div>
+
+            <button type="button" class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+    </header>
+
+    <hr class="header-divider">
+
+    <nav class="main-nav" aria-label="Main Navigation">
+        <a href="../index.html">Home</a>
+        <a href="administrative.html">Administrative</a>
+        <a href="campuslife.html">Campus Life</a>
+        <a href="course-enrollment.html" class="active">Course Enrollment</a>
+        <a href="events.html">Events</a>
+        <a href="registration.html">Student Registration</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <main class="courses-container content-card">
+        <!-- Unauthorized Guest Banner (Shown when not authenticated) -->
+        <div id="unauth-container" class="unauthorized-banner" style="display:none;">
+            <h3>Restricted Access — Student Portal</h3>
+            <p>Course Enrollment is strictly reserved for authenticated students. Please sign in to manage your course registrations.</p>
+            <a href="login.html?error=unauthorized&redirect=course-enrollment.html" class="btn btn-primary" style="display:inline-block; padding: 10px 20px; background: #2563EB; color: #fff; text-decoration: none; border-radius: 6px;">Sign In to Student Account</a>
+        </div>
+
+        <!-- Authenticated Enrollment Container -->
+        <div id="auth-enrollment-app">
+            <div class="enrollment-header-summary">
+                <div>
+                    <h2 style="margin: 0 0 6px; color: var(--primary-color, #1E3A8A);">Semester 3 Course Catalog</h2>
+                    <p style="margin: 0; color: var(--text-muted, #64748B); font-size: 14px;">Browse and register accredited departmental courses.</p>
+                </div>
+                <div class="credit-counter-badge" id="credit-badge">
+                    Total Enrolled Credits: <strong id="total-credits-count">0</strong>
+                </div>
+            </div>
+
+            <div id="enrollment-feedback" style="display:none; margin-bottom: 16px; padding: 12px 16px; border-radius: 6px;"></div>
+
+            <!-- Practical 2 Semantic Table Structure -->
+            <table class="data-table courses-table">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Faculty</th>
+                    </tr>
+                </thead>
+                <tbody id="courses-tbody">
+                    <tr>
+                        <td>Java Programming</td>
+                        <td>Jalpesh Vasa</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Mukti Patel</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Prajyot Tugaonkar</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 StudentHub | Designed &amp; Developed by 
+            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+        </p>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const unauthBox = document.getElementById("unauth-container");
+        const appBox = document.getElementById("auth-enrollment-app");
+        const creditCount = document.getElementById("total-credits-count");
+        const feedback = document.getElementById("enrollment-feedback");
+
+        // Verify authentication
+        fetch("../api/auth/me.php")
+            .then(res => res.json())
+            .then(auth => {
+                if (!auth || !auth.authenticated) {
+                    // Redirect unauthenticated visitor
+                    unauthBox.style.display = "block";
+                    appBox.style.opacity = "0.4";
+                    setTimeout(() => {
+                        window.location.href = "login.html?error=unauthorized&redirect=course-enrollment.html";
+                    }, 1500);
+                    return;
+                }
+
+                // If authenticated, load live course enrollment data
+                loadCourses();
+            })
+            .catch(() => {
+                unauthBox.style.display = "block";
+            });
+
+        function loadCourses() {
+            fetch("../api/courses/index.php")
+                .then(r => r.json())
+                .then(data => {
+                    if (!data.success) return;
+                    creditCount.textContent = data.totalCredits || 0;
+                })
+                .catch(console.error);
+        }
+    });
+    </script>
+</body>
+</html>

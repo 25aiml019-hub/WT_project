@@ -1,0 +1,83 @@
+/* =======================================================
+   StudentHub - About Page Styles
+   ======================================================= */
+
+.about-container {
+    width: calc(100% - (2 * var(--container-padding, 24px)));
+    max-width: var(--container-max-width, 1240px);
+    margin: 20px auto 35px;
+    background-color: #FFFFFF;
+    padding: clamp(20px, 2.5vw, 40px);
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-radius: var(--radius-lg, 12px);
+    box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.08));
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.about-container:hover {
+    border-color: var(--accent-color);
+}
+
+.about-container .intro {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 15px auto 25px;
+}
+
+.about-container .section {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-light);
+}
+
+.about-container ul {
+    background-color: var(--hover-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 18px 35px;
+    line-height: 2;
+    color: #444444;
+    border-radius: var(--radius-sm);
+    margin: 15px 0;
+}
+
+.about-container .creator {
+    margin-top: 30px;
+    padding: 20px 25px;
+    background-color: var(--hover-bg);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--accent-color);
+}
+
+.about-container .creator strong {
+    color: var(--accent-color);
+    font-size: 17px;
+}
+
+.about-container .creator a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 6px;
+}
+
+.about-container .creator a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.about-container .feedback {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-light);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        width: 100%;
+        padding: 20px 15px;
+    }
+}

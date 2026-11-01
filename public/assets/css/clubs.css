@@ -1,0 +1,293 @@
+/* =======================================================
+   StudentHub - Student Clubs & Campus Life Styles
+   Course: AIUE203 - Web Development Fundamentals
+   Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+   ======================================================= */
+
+.club-hero {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: flex-end;
+}
+
+.club-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.2) 0%, rgba(15, 23, 42, 0.9) 100%);
+}
+
+.club-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 35px 40px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.club-hero-tag {
+    display: inline-block;
+    background: var(--accent-color, #2563EB);
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    margin-bottom: 12px;
+}
+
+.club-hero-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5px;
+}
+
+.club-hero-subtitle {
+    font-size: 16px;
+    color: #E2E8F0;
+    max-width: 800px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.club-meta-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #FFFFFF;
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-radius: var(--radius-md, 8px);
+    padding: 18px 25px;
+    margin-bottom: 35px;
+    box-shadow: var(--shadow-sm);
+}
+
+.club-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1 1 180px;
+}
+
+.club-meta-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted, #64748B);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.club-meta-val {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary-color, #1E3A8A);
+}
+
+.club-section-card {
+    background: #FFFFFF;
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-radius: var(--radius-lg, 12px);
+    padding: 28px 32px;
+    margin-bottom: 25px;
+    box-shadow: var(--shadow-sm);
+}
+
+.club-section-card h3 {
+    margin-top: 0;
+    color: var(--primary-color, #1E3A8A);
+    font-size: 20px;
+    border-bottom: 2px solid var(--accent-light, #EFF6FF);
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+.club-objectives-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    margin-top: 15px;
+}
+
+.objective-box {
+    background: #F8FAFC;
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-left: 4px solid var(--accent-color, #2563EB);
+    padding: 16px 20px;
+    border-radius: var(--radius-sm, 6px);
+}
+
+.objective-box h4 {
+    margin: 0 0 6px 0;
+    font-size: 15px;
+    color: var(--primary-color, #1E3A8A);
+}
+
+.objective-box p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text-color, #1E293B);
+    line-height: 1.5;
+}
+
+.club-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.club-gallery-item {
+    border-radius: var(--radius-md, 8px);
+    overflow: hidden;
+    height: 190px;
+    background: #E2E8F0;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.club-gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.club-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.admin-editable-notice {
+    background: #FFFBEB;
+    border: 1px dashed #F59E0B;
+    border-radius: var(--radius-md, 8px);
+    padding: 14px 18px;
+    font-size: 13px;
+    color: #92400E;
+    margin-top: 12px;
+}
+
+.join-club-cta {
+    background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+    color: #FFFFFF;
+    border-radius: var(--radius-lg, 12px);
+    padding: 35px 40px;
+    text-align: center;
+    margin: 35px 0 20px;
+    box-shadow: var(--shadow-md);
+}
+
+.join-club-cta h3 {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    border: none;
+    padding: 0;
+}
+
+.join-club-cta p {
+    color: #DBEAFE;
+    font-size: 15px;
+    max-width: 650px;
+    margin: 0 auto 20px;
+}
+
+/* Clubs Showcase Grid on Campus Life & Home */
+.clubs-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 22px;
+    margin: 25px 0 35px;
+}
+
+.club-showcase-card {
+    background: #FFFFFF;
+    border: 1px solid var(--border-light, #E2E8F0);
+    border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.club-showcase-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent-color, #2563EB);
+}
+
+.club-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.club-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.club-card-category {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent-color, #2563EB);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 6px;
+}
+
+.club-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color, #1E3A8A);
+    margin: 0 0 8px 0;
+}
+
+.club-card-desc {
+    font-size: 13px;
+    color: var(--text-muted, #64748B);
+    line-height: 1.5;
+    margin-bottom: 16px;
+    flex-grow: 1;
+}
+
+.club-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border-light, #E2E8F0);
+    padding-top: 14px;
+}
+
+@media (max-width: 768px) {
+    .club-hero {
+        height: 280px;
+    }
+    .club-hero-title {
+        font-size: 26px;
+    }
+    .club-hero-content {
+        padding: 20px;
+    }
+    .club-section-card {
+        padding: 18px;
+    }
+    .join-club-cta {
+        padding: 25px 20px;
+    }
+}

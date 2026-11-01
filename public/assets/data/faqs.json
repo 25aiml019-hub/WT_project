@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "What is Student Hub?",
+    "answer": "Student Hub is a platform that provides important student information and services in one place. It helps students easily access college-related information.",
+    "category": "General"
+  },
+  {
+    "id": 2,
+    "question": "Why is there a need for Student Hub?",
+    "answer": "Student Hub makes it easier for students to find important information without searching in different places. It brings services such as course enrollment, administrative services, campus life and events together on one platform.",
+    "category": "General"
+  },
+  {
+    "id": 3,
+    "question": "What services are available on Student Hub?",
+    "answer": "Student Hub provides services such as student registration, course enrollment, administrative information, campus life, events and other useful student-related information.",
+    "category": "General"
+  },
+  {
+    "id": 4,
+    "question": "How can I register as a student?",
+    "answer": "You can visit the Student Registration page from the navigation menu, fill in the required details (name, email, mobile, department, course, and hobbies), and submit the registration form.",
+    "category": "Admissions"
+  },
+  {
+    "id": 5,
+    "question": "How can I contact Student Hub?",
+    "answer": "You can visit the Contact Us page to find the email address, phone number, office information, and an interactive message form to submit your questions or feedback.",
+    "category": "Administrative"
+  },
+  {
+    "id": 6,
+    "question": "What are the administrative office working hours?",
+    "answer": "The central administrative office is open Monday through Friday from 9:00 AM to 5:00 PM, and on Saturdays from 9:00 AM to 1:00 PM. The office is closed on Sundays and university holidays.",
+    "category": "Administrative"
+  },
+  {
+    "id": 7,
+    "question": "How do I check my semester attendance and SGPA?",
+    "answer": "Students can navigate to the Dashboard page to review their registered course details, current semester performance, SGPA records, and quick links for assignments and exams.",
+    "category": "Academics"
+  },
+  {
+    "id": 8,
+    "question": "Where can I find the list of available elective courses and faculties?",
+    "answer": "Visit the Course Enrollment page to see all courses offered for the current semester along with assigned faculty mentors (such as Java Programming, Web Development, and Python).",
+    "category": "Academics"
+  },
+  {
+    "id": 9,
+    "question": "How can I join campus clubs like Sports, Music, or Coding?",
+    "answer": "Explore the Campus Life section to discover active clubs. You can contact club representatives during the induction fair or register during the first two weeks of each semester.",
+    "category": "Campus Life"
+  },
+  {
+    "id": 10,
+    "question": "How are upcoming campus hackathons and festivals announced?",
+    "answer": "All upcoming university events, hackathons, sports tournaments, and workshops are published dynamically on the Events page with dates, schedules, venues, and status badges.",
+    "category": "Campus Life"
+  },
+  {
+    "id": 11,
+    "question": "What is the procedure for semester fee payment and receipts?",
+    "answer": "Tuition fees can be paid online via the university payment gateway or at the on-campus accounts desk. Official receipts are generated digitally within 24 hours of transaction approval.",
+    "category": "Administrative"
+  },
+  {
+    "id": 12,
+    "question": "How do I apply for merit-based or government scholarships?",
+    "answer": "Scholarship guidelines, eligible quota criteria, and documentation checklists are available in the Administrative Section. Applications open at the beginning of each academic term.",
+    "category": "Admissions"
+  },
+  {
+    "id": 13,
+    "question": "Can I access central library resources and IEEE journals remotely?",
+    "answer": "Yes, enrolled students are issued library credentials granting remote VPN access to the digital catalog, DELNET, and IEEE research paper repositories.",
+    "category": "Academics"
+  },
+  {
+    "id": 14,
+    "question": "Is on-campus hostel accommodation available for students?",
+    "answer": "Hostel facilities for both male and female students are located within walking distance of the departments, equipped with Wi-Fi, dining halls, study areas, and 24/7 security.",
+    "category": "Campus Life"
+  },
+  {
+    "id": 15,
+    "question": "How do I switch between Light and Dark visual themes?",
+    "answer": "On the FAQ page or navigation toolbar, click the 'Toggle Light / Dark Theme' button. Your selected appearance preference is saved in local storage and persists across page visits.",
+    "category": "General"
+  },
+  {
+    "id": 16,
+    "question": "What should I do if I forget my student login password?",
+    "answer": "Use the 'Forgot Password' link on the Login page to initiate a password reset through your registered university email, or visit the department network administrator.",
+    "category": "Administrative"
+  }
+]

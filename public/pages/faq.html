@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - StudentHub</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/faq.css">
+    <link rel="stylesheet" href="../assets/css/dynamic-data.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Student Hub FAQ</h1>
+    </header>
+
+    <hr class="header-divider">
+
+    <nav class="main-nav" aria-label="Main Navigation">
+        <a href="../index.html">Home</a>
+        <a href="administrative.html">Administrative</a>
+        <a href="campuslife.html">Campus Life</a>
+        <a href="course-enrollment.html">Course Enrollment</a>
+        <a href="events.html">Events</a>
+        <a href="registration.html">Student Registration</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="faq.html" class="active">FAQ</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <!-- Practical 4 Theme Switcher Preservation -->
+    <div class="faq-nav">
+        <button class="btn" onclick="theme()">Toggle Light / Dark Theme</button>
+    </div>
+
+    <main class="content-card page-container">
+        <h2>Frequently Asked Questions</h2>
+
+        <!-- Dynamic Mount Target for Practical 6 Fetch API -->
+        <div id="faq-app">
+            <!-- Non-JS Fallback preserving Practical 4 static questions -->
+            <noscript>
+                <div class="faq-container">
+                    <button class="faq-question-btn" onclick="faq()">What is Student Hub?</button>
+                    <div class="faq-answer" id="ans" style="display:block;">
+                        Student Hub is a platform that provides important student information and services in one place.
+                    </div>
+                </div>
+                <div class="faq-container">
+                    <button class="faq-question-btn" onclick="faq1()">Why is there a need for Student Hub?</button>
+                    <div class="faq-answer" id="ans1" style="display:block;">
+                        Student Hub makes it easier for students to find important information without searching in different places.
+                    </div>
+                </div>
+                <div class="faq-container">
+                    <button class="faq-question-btn" onclick="faq2()">What services are available on Student Hub?</button>
+                    <div class="faq-answer" id="ans2" style="display:block;">
+                        Student Hub provides services such as student registration, course enrollment, administrative information, campus life, and events.
+                    </div>
+                </div>
+            </noscript>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 StudentHub | Designed &amp; Developed by 
+            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+        </p>
+    </footer>
+
+    <!-- FAQ Scripts: Core theme/onclick preservation + Dynamic Fetch API Renderer -->
+    <script src="../assets/js/faq.js"></script>
+    <script src="../assets/js/data-loader.js"></script>
+    <script src="../assets/js/pagination.js"></script>
+    <script src="../assets/js/faq-renderer.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details - StudentHub</title>
+    <link rel="icon" type="image/png" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/events.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-header-inner">
+            <div class="brand-section">
+                <a href="../index.html" class="brand-link">
+                    <img src="../assets/images/logo.png"
+                         alt="Student Hub Logo"
+                         class="site-logo"
+                         data-fallback="studenthub_co_logo"
+                         width="48"
+                         height="48"
+                         onerror="this.onerror=null; this.src='../assets/images/studenthub_logo.jpg';">
+                    <div class="brand-text">
+                        <span class="brand-title">StudentHub</span>
+                        <span class="brand-subtitle">CSPIT, CHARUSAT Campus</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="user-header-status" id="user-header-status">
+                <a href="login.html" class="btn-header-action btn-header-login">Sign In</a>
+                <a href="registration.html" class="btn-header-action btn-header-register">Register</a>
+            </div>
+
+            <button type="button" class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+    </header>
+
+    <hr class="header-divider">
+
+    <nav class="main-nav" aria-label="Main Navigation">
+        <a href="../index.html">Home</a>
+        <a href="administrative.html">Administrative</a>
+        <a href="campuslife.html">Campus Life</a>
+        <a href="events.html" class="active">Events</a>
+        <a href="registration.html">Student Registration</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <main class="events-container content-card">
+        <div style="margin-bottom: 20px;">
+            <a href="events.html" style="text-decoration:none; color: var(--accent-color, #2563EB); font-weight: 600;">&larr; Back to All Events</a>
+        </div>
+
+        <div id="event-detail-card" style="display: none;">
+            <div class="event-modal-header" style="padding-left:0; padding-right:0;">
+                <div>
+                    <h2 id="ev-title" style="margin: 0 0 8px; color: var(--primary-color, #1E3A8A);">Event Title</h2>
+                    <span id="ev-status" class="status-pill upcoming">Upcoming</span>
+                </div>
+            </div>
+
+            <div id="ev-alert" class="event-modal-alert"></div>
+
+            <div class="event-modal-meta-grid" style="margin-top: 20px;">
+                <div class="modal-meta-item">
+                    <strong>Date</strong>
+                    <span id="ev-date">TBD</span>
+                </div>
+                <div class="modal-meta-item">
+                    <strong>Time</strong>
+                    <span id="ev-time">TBD</span>
+                </div>
+                <div class="modal-meta-item">
+                    <strong>Venue</strong>
+                    <span id="ev-venue">Campus</span>
+                </div>
+                <div class="modal-meta-item">
+                    <strong>Category</strong>
+                    <span id="ev-category">General</span>
+                </div>
+                <div class="modal-meta-item">
+                    <strong>Eligibility</strong>
+                    <span>Open to all B.Tech / FYAIML Students</span>
+                </div>
+                <div class="modal-meta-item">
+                    <strong>Organized By</strong>
+                    <span>CSPIT StudentHub &amp; Campus Clubs</span>
+                </div>
+            </div>
+
+            <h3 class="event-modal-desc-heading">About This Event</h3>
+            <p id="ev-desc" style="line-height: 1.6; color: #334155;">Full description...</p>
+
+            <div style="margin-top: 30px; display: flex; gap: 14px;">
+                <button type="button" id="btn-register-detail" class="btn-modal-register" style="font-size: 15px; padding: 12px 24px;">Register for Event</button>
+                <a href="events.html" class="btn-modal-secondary" style="font-size: 15px; padding: 12px 20px;">Explore More Events</a>
+            </div>
+        </div>
+
+        <div id="event-detail-loading" style="text-align: center; padding: 40px;">
+            <p>Loading event information...</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 StudentHub | Designed &amp; Developed by 
+            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+        </p>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const params = new URLSearchParams(window.location.search);
+        const eventId = parseInt(params.get("id"), 10) || 1;
+
+        const card = document.getElementById("event-detail-card");
+        const loading = document.getElementById("event-detail-loading");
+        const alertBox = document.getElementById("ev-alert");
+        const regBtn = document.getElementById("btn-register-detail");
+
+        fetch("../assets/data/events.json")
+            .then(res => res.json())
+            .then(data => {
+                const ev = data.find(item => item.id === eventId) || data[0];
+                if (!ev) {
+                    loading.textContent = "Event not found.";
+                    return;
+                }
+
+                document.getElementById("ev-title").textContent = ev.title;
+                const statusPill = document.getElementById("ev-status");
+                statusPill.textContent = ev.status || "Upcoming";
+                statusPill.className = `status-pill ${(ev.status || "upcoming").toLowerCase()}`;
+                document.getElementById("ev-date").textContent = ev.date || "TBD";
+                document.getElementById("ev-time").textContent = ev.time || "TBD";
+                document.getElementById("ev-venue").textContent = ev.venue || "Campus";
+                document.getElementById("ev-category").textContent = ev.category || "General";
+                document.getElementById("ev-desc").textContent = ev.description || "Join us for this exciting campus event.";
+
+                loading.style.display = "none";
+                card.style.display = "block";
+
+                // Evaluate status and eligibility
+                const rawStatus = (ev.status || "").toLowerCase();
+                const todayStr = "2026-10-31";
+                const eventDateStr = ev.date || "";
+                const isDatePast = eventDateStr && eventDateStr < todayStr;
+                const isCompleted = (rawStatus === "completed") || isDatePast;
+                const isCancelled = (rawStatus === "cancelled");
+                const isClosed = (rawStatus === "closed");
+
+                if (isCompleted) {
+                    regBtn.disabled = true;
+                    regBtn.className = "btn-modal-secondary";
+                    regBtn.style.cursor = "not-allowed";
+                    regBtn.style.opacity = "0.7";
+                    regBtn.textContent = "Event Concluded";
+                    alertBox.className = "event-modal-alert info";
+                    alertBox.textContent = "This event took place on " + (ev.date || "a past date") + " and has concluded. Registrations are closed.";
+                } else if (isCancelled) {
+                    regBtn.disabled = true;
+                    regBtn.className = "btn-modal-secondary";
+                    regBtn.style.cursor = "not-allowed";
+                    regBtn.style.opacity = "0.7";
+                    regBtn.textContent = "Event Cancelled";
+                    alertBox.className = "event-modal-alert error";
+                    alertBox.textContent = "This event has been cancelled. Registrations are closed.";
+                } else if (isClosed) {
+                    regBtn.disabled = true;
+                    regBtn.className = "btn-modal-secondary";
+                    regBtn.style.cursor = "not-allowed";
+                    regBtn.style.opacity = "0.7";
+                    regBtn.textContent = "Registration Closed";
+                    alertBox.className = "event-modal-alert info";
+                    alertBox.textContent = "Registrations are currently closed for this event.";
+                } else {
+                    fetch("../api/events/register.php?event_id=" + ev.id)
+                        .then(r => r.json())
+                        .then(statusData => {
+                            if (statusData && statusData.is_registered) {
+                                regBtn.disabled = true;
+                                regBtn.className = "btn-modal-register";
+                                regBtn.style.background = "#059669";
+                                regBtn.textContent = "Already Registered ✓";
+                                alertBox.className = "event-modal-alert success";
+                                alertBox.textContent = "You are already registered for this event. View it in your Student Portal.";
+                            }
+                        })
+                        .catch(() => {});
+                }
+
+                regBtn.addEventListener("click", function () {
+                    if (isCompleted || isCancelled || isClosed) {
+                        return;
+                    }
+
+                    regBtn.disabled = true;
+                    regBtn.textContent = "Processing...";
+
+                    fetch("../api/auth/me.php")
+                        .then(r => r.json())
+                        .then(auth => {
+                            if (!auth || !auth.authenticated) {
+                                alertBox.className = "event-modal-alert info";
+                                alertBox.textContent = "Student sign in required to register. Redirecting to login...";
+                                setTimeout(() => {
+                                    window.location.href = "login.html?error=unauthorized&redirect=events.html";
+                                }, 1200);
+                                return;
+                            }
+
+                            fetch("../api/events/register.php", {
+                                method: "POST",
+                                headers: { "Content-Type": "application/json" },
+                                body: JSON.stringify({ event_id: ev.id })
+                            })
+                                .then(r => r.json().then(data => ({ status: r.status, body: data })))
+                                .then(({ status, body }) => {
+                                    if (body.success) {
+                                        alertBox.className = "event-modal-alert success";
+                                        alertBox.textContent = body.message || "Successfully registered! Check your student portal.";
+                                        regBtn.textContent = "Already Registered ✓";
+                                        regBtn.style.background = "#059669";
+                                        regBtn.disabled = true;
+                                    } else {
+                                        alertBox.className = "event-modal-alert error";
+                                        alertBox.textContent = body.message || body.error || "Could not complete registration.";
+                                        if (body.already_registered) {
+                                            regBtn.textContent = "Already Registered ✓";
+                                            regBtn.style.background = "#059669";
+                                            regBtn.disabled = true;
+                                        } else if (body.event_status === "completed" || body.event_status === "closed") {
+                                            regBtn.textContent = "Registration Closed";
+                                            regBtn.className = "btn-modal-secondary";
+                                            regBtn.disabled = true;
+                                        } else {
+                                            regBtn.disabled = false;
+                                            regBtn.textContent = "Register for Event";
+                                        }
+                                    }
+                                })
+                                .catch(() => {
+                                    alertBox.className = "event-modal-alert error";
+                                    alertBox.textContent = "Registration request failed. Please try again.";
+                                    regBtn.disabled = false;
+                                    regBtn.textContent = "Register for Event";
+                                });
+                        })
+                        .catch(() => {
+                            alertBox.className = "event-modal-alert error";
+                            alertBox.textContent = "Unable to verify authentication.";
+                            regBtn.disabled = false;
+                            regBtn.textContent = "Register for Event";
+                        });
+                });
+                            regBtn.disabled = false;
+                            regBtn.textContent = "Register for Event";
+                        });
+                });
+            })
+            .catch(() => {
+                loading.textContent = "Failed to load event details.";
+            });
+    });
+    </script>
+</body>
+</html>
