@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Shared Footer Component
  * StudentHub - CSPIT, CHARUSAT
@@ -12,7 +12,7 @@ $assetPath = ($basePath === '../') ? '../public/' : $basePath;
     <footer class="site-footer">
         <p class="footer-text">
             &copy; 2026 StudentHub | Designed &amp; Developed by 
-            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+            <strong>Daksh Harkhani</strong> (25AIML019, CSPIT CHARUSAT)
         </p>
     </footer>
 

@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Event Service (Data Access Layer - PDO & MySQLi)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 8 & 12)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../config/db.php';

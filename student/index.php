@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Student Portal Entry Point (RBAC Protected)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 10, 11 & 12)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../app/config/config.php';
@@ -44,8 +44,8 @@ try {
 }
 
 $displayName = $studentProfile['name'] ?? $user['username'];
-$collegeId = $studentProfile['student_id'] ?? '25AIML002';
-$studentIdStr = !empty($collegeId) ? $collegeId : (!empty($studentProfile['id']) ? sprintf('STU-%04d', $studentProfile['id']) : '25AIML002');
+$collegeId = $studentProfile['student_id'] ?? '25AIML019';
+$studentIdStr = !empty($collegeId) ? $collegeId : (!empty($studentProfile['id']) ? sprintf('STU-%04d', $studentProfile['id']) : '25AIML019');
 $studentId = (int)($studentProfile['id'] ?? 1);
 
 // Extended profile details: batch, counselor, CGPA

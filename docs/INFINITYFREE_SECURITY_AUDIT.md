@@ -1,6 +1,6 @@
-# StudentHub — InfinityFree Production Security Audit
+﻿# StudentHub — InfinityFree Production Security Audit
 
-**Author:** Anshika Badala (25AIML002)  
+**Author:** Daksh Harkhani (25AIML019)  
 **Course:** AIUE203 — Web Development Fundamentals  
 **Scope:** Public Web Security, Uploads, Sessions, Credentials, and Academic Privacy  
 

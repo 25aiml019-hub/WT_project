@@ -1,6 +1,6 @@
-# StudentHub — InfinityFree PHP & MySQL Compatibility Assessment
+﻿# StudentHub — InfinityFree PHP & MySQL Compatibility Assessment
 
-**Author:** Anshika Badala (25AIML002)  
+**Author:** Daksh Harkhani (25AIML019)  
 **Course:** AIUE203 — Web Development Fundamentals  
 **Target Hosting Environment:** InfinityFree (Free cPanel / VistaPanel Hosting)  
 

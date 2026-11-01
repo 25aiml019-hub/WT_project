@@ -1,7 +1,7 @@
-# Migration Map: Wt_Project to Restructured Architecture
+﻿# Migration Map: Wt_Project to Restructured Architecture
 
 **Date:** October 2026  
-**Author:** Anshika Badala (25AIML002)  
+**Author:** Daksh Harkhani (25AIML019)  
 **Project:** StudentHub  
 
 This document tracks every original file from `Wt_Project/` and details its new location, status, and modifications.

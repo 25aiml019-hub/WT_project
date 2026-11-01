@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * StudentHub - Course Enrollment (Authenticated Student Portal)
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 require_once __DIR__ . '/../../app/config/config.php';
@@ -77,7 +77,7 @@ require_once __DIR__ . '/../../app/includes/nav.php';
             <div>
                 <h2 style="margin: 0 0 6px; color: var(--primary-color, #1E3A8A);">Course Enrollment — Semester 3</h2>
                 <p style="margin: 0; color: var(--text-muted, #64748B); font-size: 14px;">
-                    Enrolled Student: <strong><?= htmlspecialchars($student['name'] ?? 'Student') ?></strong> (<?= htmlspecialchars($student['student_id'] ?? '25AIML002') ?>) &bull; <?= htmlspecialchars($student['course'] ?? 'B.Tech') ?>
+                    Enrolled Student: <strong><?= htmlspecialchars($student['name'] ?? 'Student') ?></strong> (<?= htmlspecialchars($student['student_id'] ?? '25AIML019') ?>) &bull; <?= htmlspecialchars($student['course'] ?? 'B.Tech') ?>
                 </p>
             </div>
             <div class="credit-counter-badge">

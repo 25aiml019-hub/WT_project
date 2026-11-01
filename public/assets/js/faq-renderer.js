@@ -1,7 +1,7 @@
-/**
+﻿/**
  * StudentHub - FAQ Dynamic Renderer
  * Course: AIUE203 - Web Development Fundamentals (Practical 6)
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 document.addEventListener("DOMContentLoaded", function () {

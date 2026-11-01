@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * StudentHub - Modular Contact Page (PHP)
  * Course: AIUE203 - Web Development Fundamentals (Practical 7 & 8)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../../app/config/config.php';
@@ -39,7 +39,7 @@ require_once __DIR__ . '/../../app/includes/nav.php';
         <div class="contact-info-grid">
             <div>
                 <h3>Email</h3>
-                <p>anshikabadala2@gmail.com</p>
+                <p>dakshharkhani18@gmail.com</p>
             </div>
 
             <div>

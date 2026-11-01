@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * Shared Admin Subnavigation Tab Bar
  * StudentHub - CSPIT, CHARUSAT
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 if (!isset($adminActiveTab)) {

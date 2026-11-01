@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * Shared Navigation Component
  * StudentHub - CSPIT, CHARUSAT
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 if (!isset($basePath)) {

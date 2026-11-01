@@ -1,10 +1,10 @@
-# StudentHub — UI/UX & Layout Verification Test Report
+﻿# StudentHub — UI/UX & Layout Verification Test Report
 
 **Project:** StudentHub Campus Portal  
 **Course:** AIUE203 — Web Development Fundamentals  
-**Student:** Anshika Badala (25AIML002)  
+**Student:** Daksh Harkhani (25AIML019)  
 **Institute:** CSPIT, CHARUSAT  
-**Repository:** https://github.com/anshikabadala/Wt_Project.git  
+**Repository:** https://github.com/25aiml019-hub/Wt_Project.git  
 **Date:** October 2026  
 **Status:** ALL TESTS PASSED (565/565 — 100.0%)
 
@@ -99,7 +99,7 @@ The entire StudentHub application suite was rigorously executed following the UI
 * `[PASS]` Student Portal: Displays responsive profile details grid.
 * `[PASS]` Student Portal: Enforces authentication via `checkAuth()` guard.
 * `[PASS]` Student Portal: Displays Sign Out link to `process-logout.php`.
-* `[PASS]` Database Student Record: Anshika Badala student profile linked to active user in MySQL database.
+* `[PASS]` Database Student Record: Daksh Harkhani student profile linked to active user in MySQL database.
 * `[PASS]` Database Registered Events: Student #1 has real event registrations (*CHARUSAT Annual Hackathon*, *Campus Sports Day*).
 
 ### Section 5: REST API Current User Identity & JavaScript Controller (9/9 Passed)

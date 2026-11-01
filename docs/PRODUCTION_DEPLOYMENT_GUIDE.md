@@ -1,10 +1,10 @@
-# StudentHub — Production Deployment & Complete Database Migration Manual
+﻿# StudentHub — Production Deployment & Complete Database Migration Manual
 
 **Project:** StudentHub College Management & Student Information Portal  
 **Institution:** Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Course:** AIUE203 — Web Development Fundamentals  
-**Author:** Anshika Badala (25AIML002, FYAIML)  
-**Intended Git Identity:** `anshikabadala <anshikabadala2@gmail.com>`  
+**Author:** Daksh Harkhani (25AIML019, FYAIML)  
+**Intended Git Identity:** `25aiml019-hub <dakshharkhani18@gmail.com>`  
 **Production Bundle:** `studenthub_production_bundle.zip` (SHA-256: `bad82d7e93371d8a33c3ae1f3e5ded7094825ce67c413944ad2f91131d1d1ef0`)  
 **Database Migration Script:** `database/production_complete_migration.sql`
 
@@ -127,9 +127,9 @@ Run these checks after publishing the website:
 - [ ] **1. Homepage:** Open `https://your-domain.com/` and confirm responsive banner, announcement pills, and news cards load.
 - [ ] **2. Navigation:** Verify links to Administrative, Campus Life, Events, About Us, Contact Us, and Login work.
 - [ ] **3. Admin Login:** Sign in with `admin` / `admin123` at `/pages/login.html` &rarr; Redirects to `/admin/index.php`.
-- [ ] **4. Student Login:** Sign in with `25AIML002` / `25AIML002` &rarr; Redirects to `/student/index.php`.
+- [ ] **4. Student Login:** Sign in with `25AIML019` / `25AIML019` &rarr; Redirects to `/student/index.php`.
 - [ ] **5. First-Login Password Change:** Sign in with `25AIML001` / `25AIML001` &rarr; Prompted with mandatory password update at `/pages/change-password.php`.
-- [ ] **6. Student Dashboard:** Verify Student Name (Anshika Badala), Roll No (`25AIML002`), Batch (`Batch A`), and Counselor (`Prof. Gaurav Kumar`).
+- [ ] **6. Student Dashboard:** Verify Student Name (Daksh Harkhani), Roll No (`25AIML019`), Batch (`Batch A`), and Counselor (`Prof. Gaurav Kumar`).
 - [ ] **7. 78 Student Accounts:** In the directory tab, verify batch filters: All (78), Batch A (20), Batch B (20), Batch C (20), Batch D (18).
 - [ ] **8. Class Directory Privacy:** Confirm phone numbers and personal emails are hidden from the directory table.
 - [ ] **9. Academic Records:** Verify Semester 1 SGPA (`8.05`), Semester 2 SGPA (`8.77`), and weighted CGPA (`8.44`).

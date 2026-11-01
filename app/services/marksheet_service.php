@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * StudentHub - Marksheet Upload & CGPA Extraction Service
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 require_once __DIR__ . '/../config/db.php';

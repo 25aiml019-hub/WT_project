@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Admin Portal Entry Point & Dashboard (RBAC Protected)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 10, 11 & 12)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../app/config/config.php';

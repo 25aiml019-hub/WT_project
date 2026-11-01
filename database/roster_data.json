@@ -1,0 +1,782 @@
+[
+  {
+    "srno": 1,
+    "student_id": "25AIML001",
+    "temp_student_id": "25TAIMLA6C",
+    "last_name": "Babariya",
+    "first_name": "Shruti",
+    "middle_name": "Hareshbhai",
+    "full_name": "Shruti Hareshbhai Babariya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 2,
+    "student_id": "25AIML002",
+    "temp_student_id": "25TAIMLGGE",
+    "last_name": "Badala",
+    "first_name": "Anshika",
+    "middle_name": "Ravibhai",
+    "full_name": "Anshika Ravibhai Badala",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 3,
+    "student_id": "25AIML003",
+    "temp_student_id": "25TAIMLJJX",
+    "last_name": "Chandravadiya",
+    "first_name": "Deep",
+    "middle_name": "",
+    "full_name": "Deep  Chandravadiya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 4,
+    "student_id": "25AIML004",
+    "temp_student_id": "25TAIMLZ9B",
+    "last_name": "Chotaliya",
+    "first_name": "Hinalkumar",
+    "middle_name": "Maheshbhai",
+    "full_name": "Hinalkumar Maheshbhai Chotaliya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 5,
+    "student_id": "25AIML005",
+    "temp_student_id": "25TAIMLB7G",
+    "last_name": "Dayani",
+    "first_name": "Tanmay",
+    "middle_name": "Hasmukhbhai",
+    "full_name": "Tanmay Hasmukhbhai Dayani",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 6,
+    "student_id": "25AIML006",
+    "temp_student_id": "25TAIMLSNE",
+    "last_name": "Dhakecha",
+    "first_name": "Deep",
+    "middle_name": "Hiteshbhai",
+    "full_name": "Deep Hiteshbhai Dhakecha",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 7,
+    "student_id": "25AIML007",
+    "temp_student_id": "25TAIMLAZ1",
+    "last_name": "Dhola",
+    "first_name": "Manav",
+    "middle_name": "Pankajbhai",
+    "full_name": "Manav Pankajbhai Dhola",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 8,
+    "student_id": "25AIML008",
+    "temp_student_id": "25TAIMLDX1",
+    "last_name": "Dhudiya",
+    "first_name": "Vasu",
+    "middle_name": "Ajaybhai",
+    "full_name": "Vasu Ajaybhai Dhudiya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 9,
+    "student_id": "25AIML009",
+    "temp_student_id": "25TAIMLKBA",
+    "last_name": "Dudhatra",
+    "first_name": "Het",
+    "middle_name": "Sureshbhai",
+    "full_name": "Het Sureshbhai Dudhatra",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 10,
+    "student_id": "25AIML010",
+    "temp_student_id": "25TAIMLCX2",
+    "last_name": "Fefar",
+    "first_name": "Diya",
+    "middle_name": "Bharatbhai",
+    "full_name": "Diya Bharatbhai Fefar",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 11,
+    "student_id": "25AIML011",
+    "temp_student_id": "25TAIML1XV",
+    "last_name": "Gabani",
+    "first_name": "Kavy",
+    "middle_name": "Chandrakantbhai",
+    "full_name": "Kavy Chandrakantbhai Gabani",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 12,
+    "student_id": "25AIML012",
+    "temp_student_id": "25TAIMLT1Q",
+    "last_name": "Gabani",
+    "first_name": "Romil",
+    "middle_name": "Rajeshbhai",
+    "full_name": "Romil Rajeshbhai Gabani",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 13,
+    "student_id": "25AIML013",
+    "temp_student_id": "25TAIMLVDS",
+    "last_name": "Gandhi",
+    "first_name": "Yug",
+    "middle_name": "Krunal",
+    "full_name": "Yug Krunal Gandhi",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 14,
+    "student_id": "25AIML014",
+    "temp_student_id": "25TAIMLAAG",
+    "last_name": "Ghadiya",
+    "first_name": "Disha",
+    "middle_name": "Rasikbhai",
+    "full_name": "Disha Rasikbhai Ghadiya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 15,
+    "student_id": "25AIML015",
+    "temp_student_id": "25TAIMLBVI",
+    "last_name": "Ghataliya",
+    "first_name": "Rudra",
+    "middle_name": "Rajeshkumar",
+    "full_name": "Rudra Rajeshkumar Ghataliya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 16,
+    "student_id": "25AIML016",
+    "temp_student_id": "25TAIMLCBM",
+    "last_name": "Ghelani",
+    "first_name": "Tirth",
+    "middle_name": "Jagdishbhai",
+    "full_name": "Tirth Jagdishbhai Ghelani",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 17,
+    "student_id": "25AIML017",
+    "temp_student_id": "25TAIMLUQU",
+    "last_name": "Ghodasara",
+    "first_name": "Krisha",
+    "middle_name": "Ramesh",
+    "full_name": "Krisha Ramesh Ghodasara",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 18,
+    "student_id": "25AIML018",
+    "temp_student_id": "25TAIMLOOX",
+    "last_name": "Hadiya",
+    "first_name": "Riyansh",
+    "middle_name": "",
+    "full_name": "Riyansh  Hadiya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 19,
+    "student_id": "25AIML019",
+    "temp_student_id": "25TAIMLL5I",
+    "last_name": "Harkhani",
+    "first_name": "Daksh",
+    "middle_name": "Piyushbhai",
+    "full_name": "Daksh Piyushbhai Harkhani",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 20,
+    "student_id": "25AIML020",
+    "temp_student_id": "25TAIMLWUN",
+    "last_name": "Hihoriya",
+    "first_name": "Rudra",
+    "middle_name": "Hiteshbhai",
+    "full_name": "Rudra Hiteshbhai Hihoriya",
+    "batch": "Batch A"
+  },
+  {
+    "srno": 21,
+    "student_id": "25AIML021",
+    "temp_student_id": "25TAIMLSLC",
+    "last_name": "Hirpara",
+    "first_name": "Aryan",
+    "middle_name": "Mukeshbhai",
+    "full_name": "Aryan Mukeshbhai Hirpara",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 22,
+    "student_id": "25AIML022",
+    "temp_student_id": "25TAIMLEKM",
+    "last_name": "Jasoliya",
+    "first_name": "Tirth",
+    "middle_name": "Jiteshbhai",
+    "full_name": "Tirth Jiteshbhai Jasoliya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 23,
+    "student_id": "25AIML023",
+    "temp_student_id": "25TAIML9RV",
+    "last_name": "John",
+    "first_name": "Ryan",
+    "middle_name": "Mathews",
+    "full_name": "Ryan Mathews John",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 24,
+    "student_id": "25AIML024",
+    "temp_student_id": "25TAIMLE9M",
+    "last_name": "Kakadiya",
+    "first_name": "Manthan",
+    "middle_name": "Rajeshbhai",
+    "full_name": "Manthan Rajeshbhai Kakadiya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 25,
+    "student_id": "25AIML025",
+    "temp_student_id": "25TAIMLR8C",
+    "last_name": "Kakadiya",
+    "first_name": "Tirthkumar",
+    "middle_name": "",
+    "full_name": "Tirthkumar  Kakadiya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 26,
+    "student_id": "25AIML026",
+    "temp_student_id": "25TAIMLUM7",
+    "last_name": "Kalola",
+    "first_name": "Rutvi",
+    "middle_name": "Mitulbhai",
+    "full_name": "Rutvi Mitulbhai Kalola",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 27,
+    "student_id": "25AIML027",
+    "temp_student_id": "25TAIMLY1S",
+    "last_name": "Koli",
+    "first_name": "Priyanshi",
+    "middle_name": "Mukeshbhai",
+    "full_name": "Priyanshi Mukeshbhai Koli",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 28,
+    "student_id": "25AIML028",
+    "temp_student_id": "25TAIMLWQP",
+    "last_name": "Kukadiya",
+    "first_name": "Bhavy",
+    "middle_name": "Rakeshbhai",
+    "full_name": "Bhavy Rakeshbhai Kukadiya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 29,
+    "student_id": "25AIML029",
+    "temp_student_id": "25TAIMLUQP",
+    "last_name": "Ladola",
+    "first_name": "Khushi",
+    "middle_name": "Nareshbhai",
+    "full_name": "Khushi Nareshbhai Ladola",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 30,
+    "student_id": "25AIML030",
+    "temp_student_id": "25TAIMLMJ6",
+    "last_name": "Lukhi",
+    "first_name": "Aesha",
+    "middle_name": "Girishbhai",
+    "full_name": "Aesha Girishbhai Lukhi",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 31,
+    "student_id": "25AIML031",
+    "temp_student_id": "25TAIMLIFL",
+    "last_name": "Madani",
+    "first_name": "Kavya",
+    "middle_name": "Sumitbhai",
+    "full_name": "Kavya Sumitbhai Madani",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 32,
+    "student_id": "25AIML032",
+    "temp_student_id": "25TAIMLQKO",
+    "last_name": "Makati",
+    "first_name": "Vruti",
+    "middle_name": "Bhupatbhai",
+    "full_name": "Vruti Bhupatbhai Makati",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 33,
+    "student_id": "25AIML033",
+    "temp_student_id": "25TAIML7HB",
+    "last_name": "Mangukiya",
+    "first_name": "Deep",
+    "middle_name": "Arvindbhai",
+    "full_name": "Deep Arvindbhai Mangukiya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 34,
+    "student_id": "25AIML034",
+    "temp_student_id": "25TAIMLNXQ",
+    "last_name": "Moradiya",
+    "first_name": "Jay",
+    "middle_name": "Ashvinbhai",
+    "full_name": "Jay Ashvinbhai Moradiya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 35,
+    "student_id": "25AIML035",
+    "temp_student_id": "25TAIMLFG2",
+    "last_name": "Moradiya",
+    "first_name": "Yug",
+    "middle_name": "Ashokbhai",
+    "full_name": "Yug Ashokbhai Moradiya",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 36,
+    "student_id": "25AIML036",
+    "temp_student_id": "25TAIMLONJ",
+    "last_name": "Munjapara",
+    "first_name": "Nit",
+    "middle_name": "Hareshbhai",
+    "full_name": "Nit Hareshbhai Munjapara",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 37,
+    "student_id": "25AIML037",
+    "temp_student_id": "25TAIMLJJE",
+    "last_name": "Nadoda",
+    "first_name": "Kushagra",
+    "middle_name": "",
+    "full_name": "Kushagra  Nadoda",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 38,
+    "student_id": "25AIML038",
+    "temp_student_id": "25TAIMLAO3",
+    "last_name": "Narola",
+    "first_name": "Grishma",
+    "middle_name": "Mayurkumar",
+    "full_name": "Grishma Mayurkumar Narola",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 39,
+    "student_id": "25AIML039",
+    "temp_student_id": "25TAIMLIB8",
+    "last_name": "Odedra",
+    "first_name": "Nihal",
+    "middle_name": "Jivabhai",
+    "full_name": "Nihal Jivabhai Odedra",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 40,
+    "student_id": "25AIML040",
+    "temp_student_id": "25TAIML5SD",
+    "last_name": "Panchal",
+    "first_name": "Hetkumar",
+    "middle_name": "Kamleshbhai",
+    "full_name": "Hetkumar Kamleshbhai Panchal",
+    "batch": "Batch B"
+  },
+  {
+    "srno": 41,
+    "student_id": "25AIML041",
+    "temp_student_id": "25TAIMLZI9",
+    "last_name": "Parmar",
+    "first_name": "Diya",
+    "middle_name": "Manishbhai",
+    "full_name": "Diya Manishbhai Parmar",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 42,
+    "student_id": "25AIML042",
+    "temp_student_id": "25TAIMLDYJ",
+    "last_name": "Parsaniya",
+    "first_name": "Yug",
+    "middle_name": "Sandipbhai",
+    "full_name": "Yug Sandipbhai Parsaniya",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 43,
+    "student_id": "25AIML043",
+    "temp_student_id": "25TAIMLLVC",
+    "last_name": "Patel",
+    "first_name": "Ansh",
+    "middle_name": "",
+    "full_name": "Ansh  Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 44,
+    "student_id": "25AIML044",
+    "temp_student_id": "25TAIMLIVB",
+    "last_name": "Patel",
+    "first_name": "Bhavya",
+    "middle_name": "Atulbhai",
+    "full_name": "Bhavya Atulbhai Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 45,
+    "student_id": "25AIML045",
+    "temp_student_id": "25TAIML92A",
+    "last_name": "Patel",
+    "first_name": "Dhanvi",
+    "middle_name": "Chirag",
+    "full_name": "Dhanvi Chirag Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 46,
+    "student_id": "25AIML046",
+    "temp_student_id": "25TAIMLUAE",
+    "last_name": "Patel",
+    "first_name": "Durva",
+    "middle_name": "Pavan",
+    "full_name": "Durva Pavan Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 47,
+    "student_id": "25AIML047",
+    "temp_student_id": "25TAIMLRT1",
+    "last_name": "Patel",
+    "first_name": "Fenil",
+    "middle_name": "Niravbhai",
+    "full_name": "Fenil Niravbhai Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 48,
+    "student_id": "25AIML048",
+    "temp_student_id": "25TAIMLMN7",
+    "last_name": "Patel",
+    "first_name": "Harekrishna",
+    "middle_name": "Rakeshbhai",
+    "full_name": "Harekrishna Rakeshbhai Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 49,
+    "student_id": "25AIML049",
+    "temp_student_id": "25TAIMLGLX",
+    "last_name": "Patel",
+    "first_name": "Het",
+    "middle_name": "Hemantkumar",
+    "full_name": "Het Hemantkumar Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 50,
+    "student_id": "25AIML050",
+    "temp_student_id": "25TAIMLXQM",
+    "last_name": "Patel",
+    "first_name": "Het",
+    "middle_name": "Pinakin",
+    "full_name": "Het Pinakin Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 51,
+    "student_id": "25AIML051",
+    "temp_student_id": "25TAIML7OE",
+    "last_name": "Patel",
+    "first_name": "Jay",
+    "middle_name": "",
+    "full_name": "Jay  Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 52,
+    "student_id": "25AIML052",
+    "temp_student_id": "25TAIMLTXH",
+    "last_name": "Patel",
+    "first_name": "Kartvya",
+    "middle_name": "Dhavalbhai",
+    "full_name": "Kartvya Dhavalbhai Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 53,
+    "student_id": "25AIML053",
+    "temp_student_id": "25TAIMLK36",
+    "last_name": "Patel",
+    "first_name": "Kavya",
+    "middle_name": "Priteshkumar",
+    "full_name": "Kavya Priteshkumar Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 54,
+    "student_id": "25AIML054",
+    "temp_student_id": "25TAIMLSNA",
+    "last_name": "Patel",
+    "first_name": "Neev",
+    "middle_name": "",
+    "full_name": "Neev  Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 55,
+    "student_id": "25AIML055",
+    "temp_student_id": "25TAIMLLMB",
+    "last_name": "Patel",
+    "first_name": "Neev",
+    "middle_name": "Mehulkumar",
+    "full_name": "Neev Mehulkumar Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 56,
+    "student_id": "25AIML056",
+    "temp_student_id": "25TAIML7CL",
+    "last_name": "Patel",
+    "first_name": "Samarthkumar",
+    "middle_name": "Yogeshkumar",
+    "full_name": "Samarthkumar Yogeshkumar Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 57,
+    "student_id": "25AIML057",
+    "temp_student_id": "25TAIMLZFY",
+    "last_name": "Patel",
+    "first_name": "Tej",
+    "middle_name": "",
+    "full_name": "Tej  Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 58,
+    "student_id": "25AIML058",
+    "temp_student_id": "25TAIMLWYU",
+    "last_name": "Patel",
+    "first_name": "Tirth",
+    "middle_name": "Vijaykumar",
+    "full_name": "Tirth Vijaykumar Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 59,
+    "student_id": "25AIML059",
+    "temp_student_id": "25TAIMLC0B",
+    "last_name": "Patel",
+    "first_name": "Vyom",
+    "middle_name": "Tejaskumar",
+    "full_name": "Vyom Tejaskumar Patel",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 60,
+    "student_id": "25AIML060",
+    "temp_student_id": "25TAIML3GF",
+    "last_name": "Raiyani",
+    "first_name": "Niyati",
+    "middle_name": "Hareshbhai",
+    "full_name": "Niyati Hareshbhai Raiyani",
+    "batch": "Batch C"
+  },
+  {
+    "srno": 61,
+    "student_id": "25AIML061",
+    "temp_student_id": "25TAIML5HF",
+    "last_name": "Rathod",
+    "first_name": "Kavya",
+    "middle_name": "Ketankumar",
+    "full_name": "Kavya Ketankumar Rathod",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 62,
+    "student_id": "25AIML062",
+    "temp_student_id": "25TAIMLU0P",
+    "last_name": "Rupani",
+    "first_name": "Yug",
+    "middle_name": "Kamleshbhai",
+    "full_name": "Yug Kamleshbhai Rupani",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 63,
+    "student_id": "25AIML063",
+    "temp_student_id": "25TAIMLGWT",
+    "last_name": "Shah",
+    "first_name": "Anvi",
+    "middle_name": "Yagneshkumar",
+    "full_name": "Anvi Yagneshkumar Shah",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 64,
+    "student_id": "25AIML064",
+    "temp_student_id": "25TAIMLXBY",
+    "last_name": "Shah",
+    "first_name": "Heshvi",
+    "middle_name": "Nikunj",
+    "full_name": "Heshvi Nikunj Shah",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 65,
+    "student_id": "25AIML065",
+    "temp_student_id": "25TAIMLAKN",
+    "last_name": "Shah",
+    "first_name": "Jugal",
+    "middle_name": "Pragneshbhai",
+    "full_name": "Jugal Pragneshbhai Shah",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 66,
+    "student_id": "25AIML066",
+    "temp_student_id": "25TAIMLQ7X",
+    "last_name": "Shah",
+    "first_name": "Kashvi",
+    "middle_name": "Sahil",
+    "full_name": "Kashvi Sahil Shah",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 67,
+    "student_id": "25AIML067",
+    "temp_student_id": "25TAIMLHEA",
+    "last_name": "Shah",
+    "first_name": "Sanvi",
+    "middle_name": "Pradipkumar",
+    "full_name": "Sanvi Pradipkumar Shah",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 68,
+    "student_id": "25AIML068",
+    "temp_student_id": "25TAIMLD00",
+    "last_name": "Sojitra",
+    "first_name": "Margish",
+    "middle_name": "Kishorbhai",
+    "full_name": "Margish Kishorbhai Sojitra",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 69,
+    "student_id": "25AIML069",
+    "temp_student_id": "25TAIMLYMX",
+    "last_name": "Solanki",
+    "first_name": "Dhaval",
+    "middle_name": "Hajabhai",
+    "full_name": "Dhaval Hajabhai Solanki",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 70,
+    "student_id": "25AIML070",
+    "temp_student_id": "25TAIMLZJZ",
+    "last_name": "Sonani",
+    "first_name": "Dharmik",
+    "middle_name": "Niksankumar",
+    "full_name": "Dharmik Niksankumar Sonani",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 71,
+    "student_id": "25AIML071",
+    "temp_student_id": "25TAIMLZQQ",
+    "last_name": "Sorathiya",
+    "first_name": "Krina",
+    "middle_name": "Kaushikbhai",
+    "full_name": "Krina Kaushikbhai Sorathiya",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 72,
+    "student_id": "25AIML072",
+    "temp_student_id": "25TAIMLAAQ",
+    "last_name": "Sutariya",
+    "first_name": "Om",
+    "middle_name": "",
+    "full_name": "Om  Sutariya",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 73,
+    "student_id": "25AIML073",
+    "temp_student_id": "25TAIMLUE2",
+    "last_name": "Suthar",
+    "first_name": "Prince",
+    "middle_name": "Bipinkumar",
+    "full_name": "Prince Bipinkumar Suthar",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 74,
+    "student_id": "25AIML074",
+    "temp_student_id": "25TAIMLPWY",
+    "last_name": "Tandel",
+    "first_name": "Arya",
+    "middle_name": "Anishkumar",
+    "full_name": "Arya Anishkumar Tandel",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 75,
+    "student_id": "25AIML075",
+    "temp_student_id": "25TAIMLETR",
+    "last_name": "Tejani",
+    "first_name": "Yug",
+    "middle_name": "Rajeshbhai",
+    "full_name": "Yug Rajeshbhai Tejani",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 76,
+    "student_id": "25AIML076",
+    "temp_student_id": "25TAIML0JT",
+    "last_name": "Thakkar",
+    "first_name": "Hani",
+    "middle_name": "Sachinkumar",
+    "full_name": "Hani Sachinkumar Thakkar",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 77,
+    "student_id": "25AIML077",
+    "temp_student_id": "25TAIMLZRT",
+    "last_name": "Vansadia",
+    "first_name": "Datta",
+    "middle_name": "Girirajsinh",
+    "full_name": "Datta Girirajsinh Vansadia",
+    "batch": "Batch D"
+  },
+  {
+    "srno": 78,
+    "student_id": "25AIML078",
+    "temp_student_id": "25TAIMLNND",
+    "last_name": "Varsani",
+    "first_name": "Akhil",
+    "middle_name": "Vipulbhai",
+    "full_name": "Akhil Vipulbhai Varsani",
+    "batch": "Batch D"
+  }
+]

@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Authentication & Role-Based Access Control (RBAC) Guard Helpers
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 10)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../config/config.php';

@@ -1,8 +1,8 @@
-# StudentHub — Phase 1 Test & Verification Report
+﻿# StudentHub — Phase 1 Test & Verification Report
 
 **Course:** AIUE203 - Web Development Fundamentals (WDF)  
-**Student Name:** Anshika Badala  
-**Student ID:** 25AIML002  
+**Student Name:** Daksh Harkhani  
+**Student ID:** 25AIML019  
 **Institute:** CSPIT, CHARUSAT  
 **Test Date:** October 2026  
 **Test Execution Engine:** Python 3.14 & In-Browser JavaScript Suite  
@@ -57,7 +57,7 @@
 - **Status:** Verified (PASS)
 - **Visual Upgrade:** Migrated from primitive `aliceblue` styling to branded StudentHub theme.
 - **Assets Loaded:** `../assets/css/main.css`, `../assets/css/dashboard.css`, `../assets/js/main.js`
-- **Features Verified:** Student profile details (Name: Anshika Badala, Course: B.Tech AIML, Semester: 3, Result: 8.77 SGPA) and Quick Links grid (Attendance, Results, Assignments, Events).
+- **Features Verified:** Student profile details (Name: Daksh Harkhani, Course: B.Tech AIML, Semester: 3, Result: 8.77 SGPA) and Quick Links grid (Attendance, Results, Assignments, Events).
 
 ### 2.6 `public/pages/events.html` (Upcoming Events)
 - **Status:** Verified (PASS)
@@ -93,7 +93,7 @@
 - **Status:** Verified (PASS)
 - **Hygiene Fixed:** Removed 28 lines of dead legacy HTML.
 - **Assets Loaded:** `../assets/css/main.css`, `../assets/css/about.css`, `../assets/js/main.js`
-- **Features Verified:** Intro, Our Purpose, What Student Hub Provides, Creator card (Anshika Badala, LinkedIn, GitHub), Suggestions & Feedback.
+- **Features Verified:** Intro, Our Purpose, What Student Hub Provides, Creator card (Daksh Harkhani, LinkedIn, GitHub), Suggestions & Feedback.
 
 ---
 
@@ -116,7 +116,7 @@ Regex: `/^[0-9]{10}$/`
 Regex: `/^[^\s@]+@[^\s@]+\.[^\s@]+$/`
 | Input Tested | Expected Outcome | Actual Outcome | Status |
 |---|---|---|---|
-| `anshikabadala2@gmail.com` | Match (Valid) | Matched | **PASS** |
+| `dakshharkhani18@gmail.com` | Match (Valid) | Matched | **PASS** |
 | `admin@studenthub.com` | Match (Valid) | Matched | **PASS** |
 | `student@charusat.edu.in` | Match (Valid) | Matched | **PASS** |
 | `plainaddress` | Reject (Invalid) | Rejected | **PASS** |

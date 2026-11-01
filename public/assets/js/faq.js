@@ -1,7 +1,7 @@
-/**
+﻿/**
  * StudentHub - Collapsible FAQ & Dark Theme Switcher
  * Course: AIUE203 - Web Development Fundamentals (Practical 4)
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 // Toggle Dark Theme with localStorage persistence

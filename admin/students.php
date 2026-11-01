@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Student Management CRUD Module (Practical 11)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../app/config/config.php';
@@ -161,7 +161,7 @@ require_once __DIR__ . '/../app/includes/admin_subnav.php';
                     <div class="form-grid">
                         <div class="form-group full-width">
                             <label for="form-name">Full Name *</label>
-                            <input type="text" id="form-name" name="name" required placeholder="e.g. Anshika Badala">
+                            <input type="text" id="form-name" name="name" required placeholder="e.g. Daksh Harkhani">
                         </div>
 
                         <div class="form-group">
@@ -273,7 +273,7 @@ require_once __DIR__ . '/../app/includes/admin_subnav.php';
     <footer class="site-footer">
         <p class="footer-text">
             &copy; 2026 StudentHub | Designed &amp; Developed by 
-            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+            <strong>Daksh Harkhani</strong> (25AIML019, CSPIT CHARUSAT)
         </p>
     </footer>
 

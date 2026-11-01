@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * User & Authentication Service (MySQLi Prepared Statements)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 9 & 10)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../config/db.php';
@@ -33,7 +33,7 @@ class UserService {
             return $user;
         }
 
-        // 2. Direct match by student_id in students table (e.g. '25AIML002')
+        // 2. Direct match by student_id in students table (e.g. '25AIML019')
         $stmt2 = $mysqli->prepare(
             "SELECT u.id, u.username, u.email, u.password, u.role, u.status, u.must_change_password, u.failed_login_attempts, u.lockout_until, u.last_login, u.created_at " .
             "FROM students s " .

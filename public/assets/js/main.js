@@ -1,7 +1,7 @@
-/**
+﻿/**
  * StudentHub - Global Interactive Utilities & Design System Controller
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 document.addEventListener("DOMContentLoaded", function () {

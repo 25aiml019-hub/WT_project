@@ -1,8 +1,8 @@
-# Practical 9 & 10 Test & Implementation Report
+﻿# Practical 9 & 10 Test & Implementation Report
 
 **Project:** StudentHub  
 **Course:** AIUE203 — Web Development Fundamentals (WDF)  
-**Student Name:** Anshika Badala (25AIML002)  
+**Student Name:** Daksh Harkhani (25AIML019)  
 **Institute:** Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Date:** October 2026  
 **Status:** **Completed & Verified (100% Tests Passing)**
@@ -113,7 +113,7 @@ In compliance with AIUE203 guidelines, no public admin registration is permitted
 | Username | Email | Role | Development Password |
 |---|---|---|---|
 | `admin` | `admin@studenthub.com` | `admin` | `admin123` |
-| `anshika` | `anshikabadala2@gmail.com` | `student` | `student123` |
+| `anshika` | `dakshharkhani18@gmail.com` | `student` | `student123` |
 | `demo_student` | `student@studenthub.com` | `student` | `student123` |
 
 *Note: Seed scripts use `INSERT IGNORE INTO` syntax and never overwrite existing user passwords when re-executed.*

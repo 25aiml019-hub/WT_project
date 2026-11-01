@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * StudentHub - Modular Login Page (PHP)
  * Course: AIUE203 - Web Development Fundamentals (Practical 10)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../../app/config/config.php';
@@ -49,8 +49,8 @@ require_once __DIR__ . '/../../app/includes/nav.php';
             <h3 style="margin-top: 0; margin-bottom: 8px; font-size: 1rem; color: #1e40af; display: flex; align-items: center; gap: 6px;">
                 <span>📋</span> Demo Login Instructions
             </h3>
-            <p style="margin: 4px 0;"><strong>Username:</strong> Your official college ID (e.g. <code>25AIML002</code>)</p>
-            <p style="margin: 4px 0;"><strong>Initial password:</strong> Your official college ID (e.g. <code>25AIML002</code>)</p>
+            <p style="margin: 4px 0;"><strong>Username:</strong> Your official college ID (e.g. <code>25AIML019</code>)</p>
+            <p style="margin: 4px 0;"><strong>Initial password:</strong> Your official college ID (e.g. <code>25AIML019</code>)</p>
             <p style="margin: 6px 0 0; font-size: 0.85rem; color: #2563eb;"><em>On first login, you must create a new password.</em></p>
             <p style="margin: 6px 0 0; font-size: 0.85rem; color: #64748b; border-top: 1px dashed #cbd5e1; padding-top: 6px;"><strong>Admin Portal:</strong> Username: <code>admin</code> | Password: <code>admin123</code></p>
         </div>

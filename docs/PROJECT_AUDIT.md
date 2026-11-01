@@ -1,8 +1,8 @@
-# Project Audit: StudentHub (Wt_Project)
+﻿# Project Audit: StudentHub (Wt_Project)
 
 **Course:** AIUE203 - Web Development Fundamentals (WDF)  
-**Student Name:** Anshika Badala  
-**Student ID:** 25AIML002  
+**Student Name:** Daksh Harkhani  
+**Student ID:** 25AIML019  
 **Institute:** CSPIT, CHARUSAT  
 **Audit Date:** October 2026  
 **Auditor:** Antigravity Engineering Assistant  
@@ -104,7 +104,7 @@ While the fundamental requirements of Practicals 1 through 5 (semantic HTML, bas
    - Organize scripts into `public/assets/js/` and create the missing `contact.js`.
    - Place subpages cleanly into `public/pages/` using consistent lowercase filenames (`administrative.html`, `course-enrollment.html`, `campuslife.html`, etc.).
 2. **Universal Navigation & Branding:**
-   - Equip all pages with the complete StudentHub navigation bar and unified footer crediting **Anshika Badala (25AIML002, CSPIT CHARUSAT)**.
+   - Equip all pages with the complete StudentHub navigation bar and unified footer crediting **Daksh Harkhani (25AIML019, CSPIT CHARUSAT)**.
    - Standardize all relative paths across pages and assets.
 3. **Backend & Modular Architecture Preparation:**
    - Create `app/config/db.php` with secure PDO connection management and `.env` loader.

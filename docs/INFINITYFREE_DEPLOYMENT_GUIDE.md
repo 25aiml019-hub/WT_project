@@ -1,8 +1,8 @@
-# StudentHub — InfinityFree Production Deployment & Migration Guide
+﻿# StudentHub — InfinityFree Production Deployment & Migration Guide
 
 **Project:** StudentHub College Management System  
 **Institution:** CSPIT, CHARUSAT  
-**Author:** Anshika Badala (25AIML002)  
+**Author:** Daksh Harkhani (25AIML019)  
 **Target Host:** InfinityFree (Free PHP & MySQL Web Hosting)  
 **Bundle Archive:** `studenthub_infinityfree_bundle.zip` (1.51 MB, SHA-256: `c87dcf28aa882215bef49b4ab6a378863b119d82c38f2b142e27f5116bc4b8b1`)  
 **Database SQL:** `database/verified_backups/studenthub_infinityfree_migration.sql` (151 KB)
@@ -148,7 +148,7 @@ You can upload files using either **FileZilla (FTP)** or the **Online File Manag
 Open `https://yourname.infinityfreeapp.com` in your browser and verify:
 
 1. **Homepage:** Grand hero banner, announcements, and university navigation load with responsive layout.
-2. **Student Login:** Log in with `25AIML002` / `25AIML002` &rarr; Opens Student Portal with verified CGPA 8.44.
+2. **Student Login:** Log in with `25AIML019` / `25AIML019` &rarr; Opens Student Portal with verified CGPA 8.44.
 3. **First-Login Security:** Log in with `25AIML001` / `25AIML001` &rarr; Redirects to change-password interface.
 4. **Admin Portal:** Log in with `admin` / `admin123` &rarr; Opens Administrative CRUD modules.
 5. **Academic Records:** View Sem 1 (8.05), Sem 2 (8.77), and Sem 3 Timetable.

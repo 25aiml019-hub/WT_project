@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Database Connection Module (PDO & MySQLi)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 8)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  *
  * Implements dual database connectivity supporting:
  * 1. Object-Oriented MySQLi ($mysqli)

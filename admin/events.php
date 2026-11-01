@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Event Management CRUD Module (Practical 12)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../app/config/config.php';
@@ -260,7 +260,7 @@ require_once __DIR__ . '/../app/includes/admin_subnav.php';
     <footer class="site-footer">
         <p class="footer-text">
             &copy; 2026 StudentHub | Designed &amp; Developed by 
-            <strong>Anshika Badala</strong> (25AIML002, CSPIT CHARUSAT)
+            <strong>Daksh Harkhani</strong> (25AIML019, CSPIT CHARUSAT)
         </p>
     </footer>
 

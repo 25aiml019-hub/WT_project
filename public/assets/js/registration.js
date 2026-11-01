@@ -1,7 +1,7 @@
-/**
+﻿/**
  * StudentHub - Registration Form Validation & Submission
  * Course: AIUE203 - Web Development Fundamentals (Practical 5 & 7)
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 function showAlert(type, message) {

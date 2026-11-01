@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Student Registration Form Processor (Practical 9: Secure Registration)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 7, 8 & 9)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../app/config/config.php';

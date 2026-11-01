@@ -1,9 +1,9 @@
-<!-- Copy of PROJECT_STRUCTURE.md -->
+﻿<!-- Copy of PROJECT_STRUCTURE.md -->
 # StudentHub — Project Structure & Architectural Specification
 
 **Course:** AIUE203 - Web Development Fundamentals (WDF)  
-**Student Name:** Anshika Badala  
-**Student ID:** 25AIML002  
+**Student Name:** Daksh Harkhani  
+**Student ID:** 25AIML019  
 **Institute:** CSPIT, CHARUSAT  
 **Version:** Phase 1 Architecture (October 2026)  
 

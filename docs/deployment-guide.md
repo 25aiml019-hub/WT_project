@@ -1,10 +1,10 @@
-# StudentHub — Production Deployment & Architecture Guide
+﻿# StudentHub — Production Deployment & Architecture Guide
 
 **Project:** StudentHub College Management & Student Information Portal  
 **Institution:** Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Course:** AIUE203 — Web Development Fundamentals  
-**Student Author:** Anshika Badala (25AIML002, FYAIML)  
-**Intended Git Identity:** `anshikabadala <anshikabadala2@gmail.com>`  
+**Student Author:** Daksh Harkhani (25AIML019, FYAIML)  
+**Intended Git Identity:** `25aiml019-hub <dakshharkhani18@gmail.com>`  
 
 ---
 
@@ -26,7 +26,7 @@ StudentHub is structured as a two-tier enterprise web application:
    - **Access Control:** Course Enrollment is **strictly hidden** from visitor navigation and protected server-side and client-side.
 
 2. **Authenticated Student Portal (`student/index.php`):**
-   - **Tab 1: Profile & Counselor Tab** — Verified student credentials, Student ID (`25AIML002`), Temp Student ID (`25TAIMLGGE`), Batch (`Batch A`), and assigned Faculty Counselor card (`Prof. Gaurav Kumar`, Cabin 204).
+   - **Tab 1: Profile & Counselor Tab** — Verified student credentials, Student ID (`25AIML019`), Temp Student ID (`25TAIMLGGE`), Batch (`Batch A`), and assigned Faculty Counselor card (`Prof. Gaurav Kumar`, Cabin 204).
    - **Tab 2: Academic & SGPA Summary Tab** — Verified Semester 1 SGPA (`8.05`, 19 credits), Semester 2 SGPA (`8.77`, 22 credits), and mathematically weighted CGPA (`8.44`, 41 credits). Missing indicator for pending records (e.g. `25AIML011`).
    - **Tab 3: Semester 3 Timetable Tab** — Live Today's Schedule card, Next Upcoming Class alert, and full Monday-Saturday weekly schedule for Division I (Academic Year 2026-27, Odd Term).
    - **Tab 4: FYAIML Class Directory Tab** — Complete 78-student class roster with batch filtering (All: 78, Batch A: 20, Batch B: 20, Batch C: 20, Batch D: 18) and search. *Strict student privacy defense: zero phone numbers or personal emails exposed.*
@@ -166,11 +166,11 @@ DB_NAME = 'studenthub'
 ## 6. Account Provisioning Summary (78 Students)
 
 - **Total Roster Accounts:** 78 Students (`25AIML001` through `25AIML078`).
-- **Username Convention:** Official College ID (e.g. `25AIML001`, `25AIML002`, ..., `25AIML078`).
-- **Initial Password:** Same as Username (e.g. `25AIML001`, `25AIML002`).
+- **Username Convention:** Official College ID (e.g. `25AIML001`, `25AIML019`, ..., `25AIML078`).
+- **Initial Password:** Same as Username (e.g. `25AIML001`, `25AIML019`).
 - **Bcrypt Hashing:** Passwords securely hashed with bcrypt cost factor 10.
 - **First Login Password Change:** `must_change_password = 1` enforced for all 77 newly provisioned students.
-- **Anshika Badala Account:** Preserves dual login compatibility (Username `anshika` / Password `student123` for automated test suites, or College ID `25AIML002` / Password `25AIML002` for demo verification).
+- **Daksh Harkhani Account:** Preserves dual login compatibility (Username `anshika` / Password `student123` for automated test suites, or College ID `25AIML019` / Password `25AIML019` for demo verification).
 - **Password Change Workflow:** `pages/change-password.php` and `process-change-password.php` allow students to set new secure passwords (minimum 6 characters) and clear `must_change_password`.
 
 ---
@@ -190,7 +190,7 @@ DB_NAME = 'studenthub'
 ### Weighted CGPA Formula
 $$\text{CGPA} = \frac{\sum (\text{SGPA} \times \text{Credits})}{\sum \text{Credits}} = \frac{19 \times \text{SGPA}_1 + 22 \times \text{SGPA}_2}{41}$$
 
-### Verification for Anshika Badala (25AIML002)
+### Verification for Daksh Harkhani (25AIML019)
 - **Semester 1 SGPA:** `8.05` (19.00 Credits) &rarr; $19 \times 8.05 = 152.95$ grade points.
 - **Semester 2 SGPA:** `8.77` (22.00 Credits) &rarr; $22 \times 8.77 = 192.94$ grade points.
 - **Weighted CGPA:**
@@ -241,7 +241,7 @@ Extracted directly from the official CSPIT CHARUSAT AIML Odd Term 2026-27 Divisi
 | Portal | Username | Password | Notes |
 |---|---|---|---|
 | **Admin Portal** | `admin` | `admin123` | Administrative CRUD & audit logs |
-| **Student (Anshika)** | `25AIML002` | `25AIML002` | Anshika Badala student portal (CGPA 8.44) |
+| **Student (Anshika)** | `25AIML019` | `25AIML019` | Daksh Harkhani student portal (CGPA 8.44) |
 | **Student (Anshika Legacy)**| `anshika` | `student123` | Preserves existing automated test suites |
 | **Student (Any Roster)** | `25AIML001` | `25AIML001` | Prompts for mandatory initial password change |
 
@@ -263,6 +263,6 @@ python tests/verify_phase_remedy.py
 ### Manual Browser Verification URLs
 1. **Home Page:** `http://localhost:8000/index.html`
 2. **Login Page:** `http://localhost:8000/pages/login.html` (view Demo Instructions card)
-3. **Student Portal:** `http://localhost:8000/student/index.php` (login with `25AIML002` / `25AIML002`)
+3. **Student Portal:** `http://localhost:8000/student/index.php` (login with `25AIML019` / `25AIML019`)
 4. **Admin Portal:** `http://localhost:8000/admin/index.php` (login with `admin` / `admin123`)
 5. **Change Password:** `http://localhost:8000/pages/change-password.php`

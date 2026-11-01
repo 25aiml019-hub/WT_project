@@ -1,10 +1,10 @@
-# Practical 11 & Practical 12 Test Report
+﻿# Practical 11 & Practical 12 Test Report
 
 **Project:** StudentHub  
 **Course:** AIUE203 — Web Development Fundamentals  
-**Student:** Anshika Badala (25AIML002)  
+**Student:** Daksh Harkhani (25AIML019)  
 **Institute:** CSPIT, CHARUSAT  
-**Repository:** https://github.com/anshikabadala/Wt_Project.git  
+**Repository:** https://github.com/25aiml019-hub/Wt_Project.git  
 **Date:** October 24, 2026  
 **Commit Scope:** Phase 5 — Practical 11 & Practical 12  
 

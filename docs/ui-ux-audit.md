@@ -1,10 +1,10 @@
-# StudentHub — Comprehensive UI/UX Audit & Layout Architecture Report
+﻿# StudentHub — Comprehensive UI/UX Audit & Layout Architecture Report
 
 **Project:** StudentHub Campus Portal  
 **Course:** AIUE203 — Web Development Fundamentals  
-**Student:** Anshika Badala (25AIML002)  
+**Student:** Daksh Harkhani (25AIML019)  
 **Institute:** CSPIT, CHARUSAT  
-**Repository:** https://github.com/anshikabadala/Wt_Project.git  
+**Repository:** https://github.com/25aiml019-hub/Wt_Project.git  
 **Date:** October 2026  
 
 ---
@@ -120,9 +120,9 @@ Every single relative link target was formally verified using automated Python f
 ### 6.1 Authentic Student Dashboard (`student/index.php`)
 * Integrated `StudentService::findByUserId()` and `StudentService::getRegisteredEvents()`.
 * Automatically queries real student database records from MySQL (`students` table) matching the session `user_id` or email:
-  * Full Name (`Anshika Badala`)
+  * Full Name (`Daksh Harkhani`)
   * Student Registration ID (`STU-0001`)
-  * Institutional Email (`anshikabadala2@gmail.com`)
+  * Institutional Email (`dakshharkhani18@gmail.com`)
   * Contact Mobile (`6354069434`)
   * Department (`Information Technology`)
   * Course (`B.Tech`)

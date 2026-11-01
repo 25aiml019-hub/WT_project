@@ -1,8 +1,8 @@
-# Practical 7 & 8 Test & Implementation Report
+﻿# Practical 7 & 8 Test & Implementation Report
 
 **Project:** StudentHub  
 **Course:** AIUE203 — Web Development Fundamentals (WDF)  
-**Student Name:** Anshika Badala (25AIML002)  
+**Student Name:** Daksh Harkhani (25AIML019)  
 **Institute:** Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Date:** October 2026  
 **Status:** **Completed & Verified (100% Tests Passing)**

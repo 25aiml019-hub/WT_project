@@ -1,8 +1,8 @@
-# Practical 6: Dynamic JSON Rendering with Fetch API — Test & Implementation Report
+﻿# Practical 6: Dynamic JSON Rendering with Fetch API — Test & Implementation Report
 
 **Course:** AIUE203 — Web Development Fundamentals (WDF)  
-**Student Name:** Anshika Badala  
-**Student ID:** 25AIML002  
+**Student Name:** Daksh Harkhani  
+**Student ID:** 25AIML019  
 **Department:** Artificial Intelligence & Machine Learning (AIML)  
 **Institute:** Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Implementation Date:** October 2026  

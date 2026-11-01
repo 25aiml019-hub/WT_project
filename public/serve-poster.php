@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Secure Poster File Server
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals (Practical 12)
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 $filename = isset($_GET['file']) ? basename(trim($_GET['file'])) : '';

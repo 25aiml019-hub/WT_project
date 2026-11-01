@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * Semester 3 Timetable Service (Prepared Statements & Schedule Logic)
  * StudentHub - CSPIT, CHARUSAT
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002)
+ * Author: Daksh Harkhani (25AIML019)
  */
 
 require_once __DIR__ . '/../config/db.php';

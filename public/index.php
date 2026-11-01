@@ -1,9 +1,9 @@
-<?php
+﻿<?php
 /**
  * StudentHub - Modular PHP Landing Page (Adelaide University Aesthetic)
  * Uses reusable PHP includes from app/includes/
  * Course: AIUE203 - Web Development Fundamentals
- * Author: Anshika Badala (25AIML002), CSPIT, CHARUSAT
+ * Author: Daksh Harkhani (25AIML019), CSPIT, CHARUSAT
  */
 
 require_once __DIR__ . '/../app/config/config.php';
