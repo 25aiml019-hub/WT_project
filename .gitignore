@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Microsoft Office temporary files
+~$*
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Storage uploads (keep structure, ignore media files)
+storage/uploads/posters/*
+!storage/uploads/posters/.gitkeep
+!storage/uploads/posters/.htaccess
+storage/uploads/marksheets/*
+!storage/uploads/marksheets/.gitkeep
+!storage/uploads/marksheets/.htaccess
